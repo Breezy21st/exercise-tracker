@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 // Connect to MongoDB (Replace with your MongoDB URI)
-mongoose.connect(process.env.MONGODB_URI, {
+mongoose.connect('mongodb+srv://katlegoshomangjunior:abc12345@cluster0.5g35z4j.mongodb.net/?retryWrites=true&w=majority', {
   useNewUrlParser: true,
   useUnifiedTopology: true
 });
